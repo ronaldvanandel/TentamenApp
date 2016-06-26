@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{581633EB-B896-402F-8E60-36F3DA191C85}") = "TentamenApp", "TentamenApp\TentamenApp.lsxtproj", "{F689F243-28B7-45AC-8C01-5BBB52E2BC23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TentamenApp.Server", "TentamenApp\TentamenApp.Server\TentamenApp.Server.csproj", "{D7282EA6-4A06-4440-B909-1F620DBDAE48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TentamenApp.DesktopClient", "TentamenApp\TentamenApp.DesktopClient\TentamenApp.DesktopClient.csproj", "{738C12DE-4EDF-46E0-B7D0-06803289CC44}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F689F243-28B7-45AC-8C01-5BBB52E2BC23}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{F689F243-28B7-45AC-8C01-5BBB52E2BC23}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{F689F243-28B7-45AC-8C01-5BBB52E2BC23}.Debug|Any CPU.Deploy.0 = Release|Any CPU
+		{F689F243-28B7-45AC-8C01-5BBB52E2BC23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F689F243-28B7-45AC-8C01-5BBB52E2BC23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7282EA6-4A06-4440-B909-1F620DBDAE48}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{D7282EA6-4A06-4440-B909-1F620DBDAE48}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{D7282EA6-4A06-4440-B909-1F620DBDAE48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7282EA6-4A06-4440-B909-1F620DBDAE48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7282EA6-4A06-4440-B909-1F620DBDAE48}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{738C12DE-4EDF-46E0-B7D0-06803289CC44}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{738C12DE-4EDF-46E0-B7D0-06803289CC44}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{738C12DE-4EDF-46E0-B7D0-06803289CC44}.Debug|Any CPU.Deploy.0 = Release|Any CPU
+		{738C12DE-4EDF-46E0-B7D0-06803289CC44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{738C12DE-4EDF-46E0-B7D0-06803289CC44}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
